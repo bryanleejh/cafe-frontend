@@ -1,14 +1,14 @@
 import * as React from "react";
 import { createFileRoute } from "@tanstack/react-router";
 
-export const Route = createFileRoute("/")({
-  component: HomeComponent,
+export const Route = createFileRoute("/cafe")({
+  component: CafeComponent,
 });
 
-function HomeComponent() {
+function CafeComponent() {
   return (
     <div className="p-2">
-      <h3>Welcome Home!</h3>
+      <h3>Cafe</h3>
     </div>
   );
 }
